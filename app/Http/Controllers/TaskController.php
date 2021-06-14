@@ -1,3 +1,9 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Folder;
+
 public function index(int $id)
 {
     // すべてのフォルダを取得する
